@@ -1,0 +1,84 @@
+:root {
+  --dark:rgb(24, 24, 24);; /* global scope */
+  --grey:rgb(37, 37, 37);
+  --lightgrey:rgb(184, 184, 184);
+  --white:rgb(234, 234, 234)
+}
+
+body{
+    background-color: var(--dark);
+    color: var(--white);
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.button_box{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.button_box button{
+    background-color: var(--lightgrey);
+    color: rgb(16, 16, 16);
+    border-style: none;
+    border-radius: 1em;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.button_box button:hover{
+    cursor: pointer;
+}
+
+header{
+    background-color: var(--grey);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quizbox{
+    background-color: var(--grey);
+    padding: 3rem;
+    border-radius: 1rem;
+    max-width: 900px;
+}
+
+footer{
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 100vw;
+    padding: 0px;
+}
+
+footer div{
+    padding: 1rem;
+}
+
+#footer-left p, #footer-right p{
+    font-size: small;
+    margin: 4px;
+}

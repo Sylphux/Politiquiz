@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politiquiz</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Politiquiz</h1>
+    </header>
+    <div class="content">
+        <div class="quizbox">
+            <h2 id="question">My question</h2>
+            <p>Répondez par une de ces réponses</p>
+            <div class="button_box">
+                <button onclick="questionAnswered('yes')">D'accord</button>
+                <button onclick="questionAnswered('half-yes')">Un peu d'accord</button>
+                <button onclick="questionAnswered('neutral')">Neutre</button>
+                <button onclick="questionAnswered('half-no')">Pas vraiment d'accord</button>
+                <button onclick="questionAnswered('no')">Pas d'accord</button>
+            </div>
+            <p><small id="q_counter">Question numéro 0 sur 100</small></p>
+            <p><small>Attention ! Vous ne pourrez pas revenir en arrière.</small></p>
+        </div>
+    </div>
+    <footer>
+        <div id="footer-left">
+            <p>Un projet inspiré de Politiscales</p>
+            <p>Page github : <a href="https://github.com/Sylphux/Politiquiz">https://github.com/Sylphux/Politiquiz</a></p>
+        </div>
+        <div id="footer-right">
+            <p>Ce projet n'est pas à but lucratif et est open source.</p>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
