@@ -5,6 +5,7 @@ Ce site est une proposition de test d'orientation politique. Il est inspiré de 
 ## Stade de développement
 
 Le projet est en cours de développement.
+Le test est déjà fonctionnel mais il manque les questions.
 
 ## Autres informations
 

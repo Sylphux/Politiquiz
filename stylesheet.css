@@ -2,6 +2,7 @@
   --dark:rgb(24, 24, 24);; /* global scope */
   --grey:rgb(37, 37, 37);
   --lightgrey:rgb(184, 184, 184);
+  --lightgrey-active:rgb(161, 161, 161);
   --white:rgb(234, 234, 234)
 }
 
@@ -28,7 +29,7 @@ body{
     
 }
 
-.button_box button{
+.btn{
     background-color: var(--lightgrey);
     color: rgb(16, 16, 16);
     border-style: none;
@@ -36,10 +37,13 @@ body{
     padding: 1rem;
     font-size: 1rem;
     margin: 1rem;
+    text-decoration: none;
+    text-align: center;
 }
 
-.button_box button:hover{
+.btn:hover{
     cursor: pointer;
+    background-color: var(--lightgrey-active);
 }
 
 header{
@@ -55,6 +59,9 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .quizbox{
@@ -81,4 +88,39 @@ footer div{
 #footer-left p, #footer-right p{
     font-size: small;
     margin: 4px;
+}
+
+#results-box{
+    display: none;
+}
+
+#charges-box{
+    text-align: center;
+}
+
+#ideo1-box{
+    text-align: left;
+}
+
+#ideo2-box{
+    text-align: right;
+}
+
+#charges-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+
+.ideology-names{
+    font-weight: bold;
+}
+
+.buttonzone{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
