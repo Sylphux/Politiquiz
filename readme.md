@@ -5,6 +5,11 @@ Il fonctionne avec un simple script javascript, et du html/css.
 
 C'est principalement un projet pour m'entraîner en JS.
 
+# Essayez le et faites moi des retours 
+
+Le test est accessible sur ce lien. https://sylphux.github.io/Politiquiz/
+Tout est traité en local sur votre machine, aucune donnée n'est enregistrée.
+
 ## Stade de développement
 
 Le projet est en cours de développement.
