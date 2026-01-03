@@ -68,7 +68,7 @@ header{
     background-color: var(--grey);
     padding: 3rem;
     border-radius: 1rem;
-    max-width: 900px;
+    /* max-width: 1400px; */
 }
 
 footer{
